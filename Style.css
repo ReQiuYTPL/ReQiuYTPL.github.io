@@ -1,14 +1,37 @@
-/* Estilo para los botones del encabezado */
-#header button {
-  background-color: blue;
-  color: white;
-  padding: 8px 16px;
-  border: none;
-  cursor: pointer;
+body {
+  background-color: black;
+  color: limegreen;
+  font-family: monospace;
 }
 
-/* Estilo para la tabla */
-#data-table {
-  width: 100%;
+table {
   border-collapse: collapse;
+  width: 100%;
+  margin: 50px 0;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid limegreen;
+}
+
+th {
+  background-color: limegreen;
+  color: black;
+}
+
+.btn {
+  background-color: limegreen;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: limegreen;
 }
