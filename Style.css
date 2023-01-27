@@ -1,0 +1,14 @@
+/* Estilo para los botones del encabezado */
+#header button {
+  background-color: blue;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para la tabla */
+#data-table {
+  width: 100%;
+  border-collapse: collapse;
+}
